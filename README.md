@@ -1,10 +1,14 @@
-Nodemcu
+# Nodemcu
 
 Doc: https://nodemcu.readthedocs.io/en/release/getting-started/#cloud-builder
 
 Hardware
 * esp8266
 * ssd1306 128*64
+
+Pin
+* D1: SCL
+* D2: SDA
 
 ```
 # flash firmware

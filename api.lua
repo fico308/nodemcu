@@ -26,7 +26,7 @@ function getPrice()
         -- "accept: application/json\r\nx_cg_demo_api_key: CG-KcbLvBxBSyufoz3zzHwyG7Rk\r\n", 
         nil, function(code, data)
             if (code < 0) then
-                print("HTTP request failed")
+                print("HTTP request failed", code, data)
                 display.showStr(0, 40, "Request error")
             else
                 print(code, data)

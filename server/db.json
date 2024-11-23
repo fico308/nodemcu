@@ -1,0 +1,10 @@
+{
+    "wifi": {
+        "ssid": "CloudMoon",
+        "password": "cloudmoon241001"
+    },
+    "token": {
+        "interval": 300000,
+        "pairs": "BTCUSDT,ETHUSDT,BNBUSDT,GUSDT,PEOPLEUSDT"
+    }
+}

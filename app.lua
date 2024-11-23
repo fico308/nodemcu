@@ -1,6 +1,8 @@
 local display = require("display")
-display.showStr(0, 30, "Refresh token price")
+-- display.clear()
 
+-- fetch price
+display.showStr(0, 30, "Fetch price")
 dofile("api.lua")
 collectgarbage()
 
